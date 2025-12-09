@@ -1,0 +1,61 @@
+.search-container {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-container input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Table styling */
+.table-container {
+  width: 90%;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Dark theme */
+.dark .search-container input {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.dark table thead {
+  background-color: #444;
+}
+
+.dark table tr:hover {
+  background-color: #555;
+}
+
+.dark th,
+.dark td {
+  color: #fff;
+}

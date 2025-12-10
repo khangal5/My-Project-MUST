@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+Түүхэн Дурсгалууд Апп
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React дээр хийсэн 3D загвартай түүхэн дурсгалын мэдээллийн апп.
 
-## Available Scripts
+📌 Функцууд
 
-In the project directory, you can run:
+Дурсгалуудыг жагсаалтаар харах
 
-### `npm start`
+Location, Era, Description харах
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3D Model үзэх
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Сэтгэгдэл бичих (XSS хамгаалалттай)
 
-### `npm test`
+Хар/цагаан theme
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Multilingual (i18next)
 
-### `npm run build`
+🚀 Суулгах заавар
+git clone <repo>
+cd project
+npm install
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📁 Фолдерын бүтэц
+src/
+│── components/
+│ └── ModelView/ModelViewer.jsx
+│── data/
+│ └── monuments.json
+│── pages/
+│ └── Detail.jsx
+│── App.jsx
+│── index.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📌 Технологиуд
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React
 
-### `npm run eject`
+React Router
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+i18next
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Three.js Model Viewer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+CSS Modules
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔐 Аюулгүй байдал
 
-## Learn More
+XSS хамгаалалт: HTML escape
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+URL параметр шалгалт
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Dangerous HTML ашиглаагүй
 
-### Code Splitting
+🧪 Гүйцэтгэлийн тест
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Python script ажиллуулах:
 
-### Analyzing the Bundle Size
+python performance-test/test_performance.py
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👥 Орлого
 
-### Making a Progressive Web App
+Хүдэр — Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Хангал — Дизайн/Контент
